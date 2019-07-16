@@ -38,7 +38,7 @@
     <a href="index.php"> Lihat Semua Data </a>
     <br/>
     <h3>Input Data Baru</h3>
-    <form action="input-aksi.php" name="mhs" method="post" onsubmit="return cekform()">
+    <form action="input-aksi.php" name="mhs" method="post" onsubmit="return cekform()" >
         <table>
             <tr>
                 <td>Nama</td>

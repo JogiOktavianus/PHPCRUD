@@ -41,7 +41,7 @@
     <?php
         include "koneksi.php";
         $id = $_GET['id'];
-        $query_mysql = mysqli_query($db,"SELECT * FROM id_user WHERE id='$id'")or die (mysql_error());
+        $query_mysql = mysqli_query($db, "SELECT * FROM id_user WHERE id='$id'")or die (mysql_error());
         $nomor = 1;
         while($data = mysqli_fetch_array($query_mysql)){
     ?>
